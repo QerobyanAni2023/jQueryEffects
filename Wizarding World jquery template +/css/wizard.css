@@ -1,0 +1,314 @@
+    * {
+        margin: 0;
+        padding: 0;
+        font-family: sans-serif !important;
+        color: #fff;
+        border: none;
+        transition: 1s;
+    }
+    
+    body {
+        background-image: radial-gradient(#10141b, #101929, #09152a);
+        animation: galaxy 10s infinite;
+    }
+    
+    @keyframes galaxy {
+        0% {
+            background-image: linear-gradient(#10141b, #131822, #09152a);
+        }
+        50% {
+            background-image: radial-gradient(#0f1319, #101929, #09152a);
+        }
+        100% {
+            background-image: radial-gradient(#141c29, #081225, #040b18);
+        }
+    }
+    /* --------------------------------------------------------------------header -------------------------------- */
+    
+    header {
+        background-image: linear-gradient(transparent, black), url(../image/FBSOD-dumbledore-in-the-snow.jpg);
+        background-size: cover;
+        height: 999px;
+    }
+    /* ----------------- */
+    
+    .overlay {
+        background-color: transparent;
+    }
+    
+    .overlay:hover {
+        background-color: #242633;
+    }
+    
+    .logo1 {
+        height: 52px;
+        cursor: pointer;
+    }
+    
+    .log-in {
+        float: right;
+        cursor: pointer;
+        font-size: 12px;
+        font-weight: 400;
+        line-height: normal;
+        background: #6b63b5;
+        color: #f9f4f2 !important;
+        border-radius: 3px;
+    }
+    
+    .log-in:hover {
+        background: #544d95;
+        transition: .3s;
+    }
+    /* -----------------navbar--------------------- */
+    
+    .navbar1 {
+        border-top: 1px solid hsla(0, 0%, 100%, .15);
+        /* position: relative; */
+        list-style: none;
+        padding: 7px 0 2px;
+        margin: 0;
+        background-color: transparent !important;
+    }
+    
+    .navbar1:hover {
+        background-color: #10141b !important;
+    }
+    
+    .nav-link {
+        display: block;
+        text-transform: uppercase;
+        font-size: 14px;
+        font-weight: 700 !important;
+        padding: 10px 13px;
+        margin-top: 0;
+        color: #fff !important;
+        cursor: pointer;
+    }
+    
+    .nav-link:hover {
+        border-bottom: 1px solid #514a92;
+        padding: 10px 0 0 0;
+    }
+    /* ------ */
+    
+    .logo2 {
+        width: 536px;
+    }
+    
+    .text-box {
+        width: 820px;
+        margin: 20px auto;
+        text-align: center;
+    }
+    
+    .text-box p {
+        font-size: 16px;
+        line-height: 1.38;
+        color: #f9f4f2;
+        max-width: 520px;
+    }
+    
+    .text-box button {
+        color: #fff;
+        background-color: #544d95;
+        font-weight: 700;
+        font-size: 12px;
+        text-align: center;
+        text-transform: uppercase;
+        line-height: 1;
+        letter-spacing: 1.5px;
+        border-radius: 30px;
+        border: 1px solid transparent;
+        box-sizing: border-box;
+        width: 320px;
+    }
+    
+    .text-box button:hover {
+        background-color: #514a92;
+        color: #fff;
+    }
+    
+    .square img {
+        width: 26px;
+        transform: rotate(45deg);
+        animation: square-anim 1s infinite;
+        position: relative;
+        margin-top: 10px;
+    }
+    
+    @keyframes square-anim {
+        0% {
+            margin-top: 10px;
+        }
+        25% {
+            margin-top: 20px;
+        }
+        50% {
+            margin-top: 30px;
+        }
+        75% {
+            margin-top: 40px;
+        }
+        100% {
+            margin-top: 50px;
+        }
+    }
+    /* ---------------------------------------------------------------main ----------------------------------------- */
+    
+    .sec1 {
+        height: 500px;
+        transition: 0.9s all;
+    }
+    
+    .card-text {
+        font-size: 32px;
+    }
+    /* ------------sec2---------------------------- */
+    
+    .sec2 {
+        transition: 0.9s all;
+        height: 750px;
+    }
+    
+    .sec2-divs {
+        width: 400px;
+        height: 280px;
+    }
+    
+    .card-img {
+        width: 100% !important;
+    }
+    
+    .card-body {
+        width: 226px;
+        font-size: 22px;
+        color: #fff;
+        margin-top: -45px;
+    }
+    
+    .btn-side {
+        border: 1px solid white;
+        padding: 13px 20px;
+        border-radius: 50%;
+    }
+    
+    .card-text {
+        font-weight: 700;
+    }
+    
+    .sec2 img {
+        height: 500px;
+        width: 100%;
+    }
+    
+    .number {
+        cursor: pointer;
+        font-size: 12px;
+        font-weight: 400;
+        line-height: normal;
+        background: #6b63b5;
+        color: #f9f4f2;
+        border-radius: 15px;
+        width: 90px;
+        height: 50px;
+        text-align: center;
+    }
+    
+    .col-icon {
+        height: 50px;
+        width: 70px;
+    }
+    
+    .col-icon .icon-png {
+        height: 100%;
+        width: 100%;
+    }
+    
+    .sec3 {
+        height: 1550px;
+    }
+    
+    .img-group1 .jpg,
+    .img-group2 .jpg {
+        height: 480px;
+        width: 500px;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    
+    .img-1 {
+        background-image: linear-gradient(180deg, transparent, rgba(0, 0, 0, 0.841), black), url(../image/img-1.jpg);
+    }
+    
+    .img-2 {
+        background-image: linear-gradient(180deg, transparent, rgba(0, 0, 0, 0.841), black), url(../image/img-2.jpg);
+    }
+    
+    .img-3 {
+        background-image: linear-gradient(180deg, transparent, rgba(0, 0, 0, 0.841), black), url(../image/img-3.jpg);
+    }
+    
+    .img-4 {
+        background-image: linear-gradient(180deg, transparent, rgba(0, 0, 0, 0.841), black), url(../image/img-4.jpg);
+    }
+    
+    .img-4.harry {
+        height: 80%;
+        width: 80% !important;
+    }
+    
+    .border-in {
+        height: 450px;
+        width: 480px;
+        border: 1px solid #696b78;
+    }
+    
+    #border-ani-demo {
+        border: 1px solid #e1f4ac;
+    }
+    
+    */ .sec3 a {
+        color: white;
+        text-decoration: none;
+        font-weight: 600;
+        transition: 3s;
+    }
+    
+    .sec3 a:hover {
+        text-decoration: underline;
+    }
+    /* -------------footer---- */
+    
+    footer {
+        height: 500px;
+    }
+    
+    .footer-border {
+        border: 1px solid #696b78;
+        /* margin: 0 auto; */
+    }
+    
+    .section-opacity {
+        transition: 0.9s all;
+        opacity: 0;
+    }
+    
+    .active {
+        transition: 0.9s all;
+        opacity: 1;
+    }
+    
+    .logo1-ft {
+        height: 80px;
+        cursor: pointer;
+    }
+    
+    .nav-foot {
+        box-shadow: 0px 0px 2px 0px #6b63b5;
+        background-color: #827bbd;
+    }
+    
+    footer svg {
+        width: 30px;
+    }
